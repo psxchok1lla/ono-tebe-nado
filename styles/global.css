@@ -1,13 +1,20 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 body {
   width: 1100px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  letter-spacing: 0;
 }
 
 h1,
@@ -25,10 +32,15 @@ blockquote {
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   color: inherit;
 }
 
 img {
+  height: 100%;
   width: 100%;
 }
