@@ -18,9 +18,9 @@
   text-decoration: none
 }
 
- .header__menu-item {
+.header__menu-item {
   position: relative;
-  display:block;
+  display: block;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -137,7 +137,7 @@
 
 .cover__description--bet-button {
   position: absolute;
-  display:flex;
+  display: flex;
   text-align: center;
   text-transform: uppercase;
   outline: 1px solid white;
@@ -180,7 +180,7 @@
 }
 
 .first__card {
-  position:relative;
+  position: relative;
   height: 563px;
   width: 334px;
   background-image: url(../images/card-lot-01.jpg);
@@ -221,7 +221,7 @@
 }
 
 .card__overlay {
-  position:relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -273,7 +273,7 @@
   font-weight: bold;
   text-transform: uppercase;
 
-  padding-top:101px;
+  padding-top: 101px;
 }
 
 .about__text {
@@ -294,7 +294,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin:180px 50px 88px 50px;
+  margin: 180px 50px 88px 50px;
   padding-bottom: 50px;
   font-size: 18px;
   flex-direction: column;
@@ -306,7 +306,7 @@
   flex-direction: column;
 }
 
-.footer__social-list{
+.footer__social-list {
   list-style: none;
   display: flex;
   justify-content: end;
