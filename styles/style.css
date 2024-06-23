@@ -42,7 +42,7 @@
 address {
   line-height: 24px;
   flex-direction: column;
-  font-style:inherit;
+  font-style: inherit;
 }
 
 .header address {
@@ -76,8 +76,8 @@ address {
   position: absolute;
   width: inherit;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
@@ -119,7 +119,7 @@ address {
   position: relative;
   font-weight: lighter;
   text-transform: uppercase;
-  align-items: center ;
+  align-items: center;
   z-index: 2;
   color: #fff;
   margin-left: 28px;
@@ -241,7 +241,7 @@ address {
 /* About styles start */
 
 .about {
-  margin: 146px 24px 180px 24px;  
+  margin: 146px 24px 180px 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
 }
