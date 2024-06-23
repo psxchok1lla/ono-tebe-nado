@@ -32,6 +32,22 @@ blockquote {
   padding: 0;
 }
 
+h1 {
+  font-size: 100px;
+  line-height: 115%;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+article {
+  height: 100%;
+  padding: 51px 40px 48px 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 ul {
   list-style-type: none;
 }
