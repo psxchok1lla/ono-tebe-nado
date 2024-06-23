@@ -39,13 +39,9 @@ h1 {
   letter-spacing: 0.3em;
 }
 
-article {
-  height: 100%;
-  padding: 51px 40px 48px 40px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+p {
+  line-height: 28px;
+  font-size: 22px;
 }
 
 ul {

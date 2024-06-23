@@ -27,9 +27,9 @@
       </ul>
     </nav>
     <a class="header__logo">
-      <img class="header__logo-image" src="images/logo-black.svg" alt="">
+      <img class="header__logo-image" src="images/logo-black.svg" alt="черный логотип сайта на белом фоне">
     </a>
-    <div class="address">
+    <address>
       <ul>
         <li class="numbers">
           <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -42,7 +42,7 @@
           265, Амстердам
         </li>
       </ul>
-    </div>
+    </address>
   </header>
   <main class="main">
     <section class="cover">
@@ -53,11 +53,11 @@
         <span class="accent__span text-end"><span class="custom__letter-spacing">н</span>адо</span>
       </h1>
       <div class="cover__description">
-        <div class="cover__description-text cover__description-text__word__spacing">аукцион вещей, в которые никто не
-          верил</div>
-        <a href="!#">
-          <div class="cover__description--bet-button">сделать ставку</div>
-        </a>
+        <div class="cover__description-text cover__description-text__word__spacing">
+          <p>аукцион вещей, в которые никто не
+            верил</p>
+        </div>
+        <a href="!#" class="cover__description--bet-button">сделать ставку</a>
       </div>
     </section>
     <section class="lots">
@@ -66,10 +66,10 @@
         <li class="first__card">
           <div class="overlay"></div>
           <a href="!#">
-            <article>
-              <h3 class="card__title">
+            <article class = "card">
+              <p class="card__title">
                 Фильм режиссёра, который бросил киношколу
-              </h3>
+              </p>
               <p class="card__text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр —
                 Пол
@@ -81,10 +81,10 @@
         <li class="second__card">
           <div class="overlay"></div>
           <a href="!#">
-            <article>
-              <h3 class="card__title">
+            <article class = "card">
+              <p class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
-              </h3>
+              </p>
               <p class="card__text">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней
                 одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И
@@ -96,7 +96,7 @@
         <li class="third__card">
           <div class="overlay"></div>
           <a href="!#">
-            <article>
+            <article class = "card">
               <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
@@ -109,42 +109,38 @@
           </a>
         </li>
       </ul>
-      <div class="lots__look-more-link">
-        <a href="!#">посмотреть больше</a>
-      </div>
+      <a href="!#" class = "lots__look-more-link">посмотреть больше</a>
     </section>
-    <section class="about">
-      <div class="about__columns">
-        <div class="about__logo">
-          <div class="about__logo-image">
-            <img src="./images/logo-white.svg" alt="">
-          </div>
-        </div>
-        <div class="about__contest">
-          <h2 class="about__title">Об аукционе</h2>
-          <div class="about__text">
-            <p>
-              Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
-              должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
-              которую
-              может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-            </p>
-            <p>
-              Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
-              критиками.
-              Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-              на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
-              культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
-              культовыми.
-            </p>
-          </div>
+    <section class="about" class="about__columns">
+      <div class="about__logo">
+        <div class="about__logo-image">
+          <img src="./images/logo-white.svg" alt=" белый логотип сайта на фоне черного круга">
         </div>
       </div>
+      <article class="about__contest">
+        <h2 class="about__title">Об аукционе</h2>
+        <div class="about__text">
+          <p>
+            Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не
+            должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина,
+            которую
+            может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+          </p>
+          <p>
+            Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
+            критиками.
+            Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+            на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
+            культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
+            культовыми.
+          </p>
+        </div>
+      </article>
     </section>
   </main>
   <footer class="footer">
-    <div class="address">
-      <ul class>
+    <address>
+      <ul>
         <li class="numbers">
           <a href="tel:+99995555555">+9 999 555 5555</a>
         </li>
@@ -152,13 +148,11 @@
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         </li>
         <li class="adresses">
-          <p>
-            наб. Принсенграхт 263-<br>
-            265, Амстердам
-          </p>
+          наб. Принсенграхт 263-<br>
+          265, Амстердам
         </li>
       </ul>
-    </div>
+    </address>
     <nav class="footer__menu">
       <ul class="footer__menu-list">
         <li class="footer__menu-item footer__menu-item_active">
@@ -175,13 +169,13 @@
     <nav class="footer__social-list">
       <ul>
         <li class="footer__social-list-item">
-          <a href="!#"><img src="./images/yt.svg" alt="ссылка на ютуб канал"></a>
+          <a href="!#"><img src="./images/yt.svg" alt="картинка-ссылка на ютуб канал"></a>
         </li>
         <li class="footer__social-list-item">
-          <a href="!#"><img src="./images/vk.svg" alt="ссылка на вк страницу"></a>
+          <a href="!#"><img src="./images/vk.svg" alt="картинка-ссылка на вк страницу"></a>
         </li>
         <li class="footer__social-list-item">
-          <a href="!#"><img src="./images/pinterest.svg" alt="ссылка на аккаунт в пинтересте"></a>
+          <a href="!#"><img src="./images/pinterest.svg" alt=" картинка-ссылка на аккаунт в пинтересте"></a>
         </li>
       </ul>
     </nav>
