@@ -79,7 +79,7 @@ address {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  z-index: 0;
 }
 
 .cover__title {
@@ -113,6 +113,8 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  line-height: 28px;
+  font-size: 22px;
 }
 
 .cover__description-text {
@@ -187,6 +189,8 @@ address {
 
 .lots__card-list a {
   text-decoration: none;
+  position: relative;
+  z-index: 2;
 }
 
 .card {
@@ -251,7 +255,7 @@ address {
   width: 240px;
   border-radius: 50%;
   background: black;
-  margin: 35px 72px 320px 24px;
+  margin: 35px 72px 320px 47px;
 }
 
 .about__logo-image {
@@ -265,12 +269,14 @@ address {
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 136px;
+  padding-left: 25px;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
   padding-top: 100px;
+  padding-left: 25px;
 }
 
 .about__text p:first-child {
@@ -286,7 +292,7 @@ address {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 180px 50px 88px 50px;
-  padding-bottom: 50px;
+  padding-bottom: 88px;
   font-size: 18px;
   flex-direction: column;
   text-underline-offset: 4.5px;
